@@ -302,3 +302,56 @@ ul {
 #carouselText3 {
   color: #201c11;
 }
+
+/* media query */
+@media (min-width: 320px) and (max-width: 768px) {
+  #containerFluid {
+    margin: 0;
+  }
+  .dealColumn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h3 {
+    font-size: 1.2rem;
+  }
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+  * {
+    font-size: medium;
+  }
+  #reviewPara {
+    padding: 10px;
+  }
+  ul {
+    row-gap: 20px;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  ul li a {
+    font-size: smaller;
+  }
+  ul li {
+    font-size: smaller;
+  }
+  #faqLinks {
+    padding: 0px 10px;
+  }
+
+  .row {
+    row-gap: 2rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  #bgTimer {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    /* padding: 0px 1rem; */
+  }
+}
