@@ -14,7 +14,7 @@ hiddenElements.forEach((el) =>
 )
 
 let endingDAte = "10 september 2024 7:00 PM";
-let timerValue = document.querySelectorAll("#timerValue");
+let timerValue = document.querySelectorAll(".timerValue");
 function Timer() {
     let ending = new Date(endingDAte);
     let now = new Date();

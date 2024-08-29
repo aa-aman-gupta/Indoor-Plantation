@@ -34,8 +34,6 @@
     <!-- Swiper css -->
     <link rel="stylesheet" href="/css folder/swiper-bundle.min.css" />
 
-    <script src="js/swiper-bundle.min.js"></script>
-
     <!-- Poppins font code -->
     <link
       href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -179,7 +177,6 @@
               class="d-block m-auto"
               style="
                 width: 100%;
-                height: auto;
                 position: relative;
                 object-fit: cover;
               "
@@ -313,7 +310,7 @@
                       font-weight: 500;
                     "
                   >
-                    $100.00
+                    $10.00
                   </p>
                 </div>
               </div>
@@ -338,7 +335,7 @@
                     class="bg-time d-flex justify-content-center"
                     id="bgTimer"
                   >
-                    <div class="h3" style="margin: 0" id="">01</div>
+                    <div class="h3 timerValue" style="margin: 0" >01</div>
                   </div>
                   <div class="date-hours">
                     <div class="h5">Days</div>
@@ -352,7 +349,7 @@
                     class="bg-time d-flex justify-content-center"
                     id="bgTimer"
                   >
-                    <div class="h3 m-0" id="">01</div>
+                    <div class="timerValue h3 m-0" id="">01</div>
                   </div>
                   <div class="date-hours">
                     <div class="h5 m-0">Hours</div>
@@ -366,7 +363,7 @@
                     class="bg-time d-flex justify-content-center"
                     id="bgTimer"
                   >
-                    <div class="h3 m-0" id="">01</div>
+                    <div class="timerValue h3 m-0" id="">01</div>
                   </div>
                   <div class="date-hours">
                     <div class="h5">Minutes</div>
@@ -380,7 +377,7 @@
                     class="bg-time d-flex justify-content-center"
                     id="bgTimer"
                   >
-                    <div class="h3 m-0" id="">01</div>
+                    <div class="timerValue h3 m-0" id="">01</div>
                   </div>
                   <div class="date-hours">
                     <div class="h5">Seconds</div>
@@ -1227,111 +1224,49 @@
         class="container-lg d-flex justify-content-center flex-column"
         style="align-items: center; height: 78vh"
       >
-        <div
-          class="mySwiper"
-          style="
-            width: 100%;
-            position: relative;
-            max-width: 900px;
-            padding: 1rem 0px;
-            overflow: hidden;
-          "
-        >
-          <div class="swiper-wrapper">
-            <div
-              class="swiper-slide"
-              style="
-                align-items: center;
-                row-gap: 1rem;
-                display: flex;
-                flex-direction: column;
-              "
-            >
-              <img
-                src="assets/review pic1 (1).jpg"
-                alt=""
-                style="
-                  height: 6rem;
-                  width: 6rem;
-                  border-radius: 50%;
-                  object-fit: cover;
-                  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
-                "
-              />
-              <p class="text-center fw-bold" id="reviewPara">
-                "I recently purchased a few indoor plants, and I am so impressed
-                with the quality. The plants arrived healthy and thriving, and
-                they’ve completely transformed my living space. Will definitely
-                be buying more!"
-              </p>
-              <div class="details-user text-center" style="color: #201c11">
-                <div class="name h3">-Sarah M</div>
+      <div class="mySwiper"
+      style="width: 100%;position: relative;max-width: 900px;padding:1rem 0px;overflow: hidden;">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide "
+              style="align-items: center;row-gap: 1rem;display: flex;flex-direction: column;">
+              <img src="assets/review pic1 (1).jpg" alt=""
+                  style="height: 6rem; width: 6rem; border-radius: 50%;object-fit: cover;box-shadow:3px 3px 7px rgba(0,0,0,0.3)">
+              <p class="text-center fw-bold" style="padding: 0px 8rem; color: #201c11;">"I recently
+                  purchased a few indoor plants, and I am so impressed with the quality. The
+                  plants arrived healthy and thriving, and they’ve completely transformed my living space.
+                  Will definitely be buying more!"</p>
+              <div class="details-user text-center" style="color: #201c11;">
+                  <div class="name h3">-Sarah M</div>
               </div>
-            </div>
-            <div
-              class="swiper-slide"
-              style="
-                align-items: center;
-                row-gap: 1rem;
-                display: flex;
-                flex-direction: column;
-              "
-            >
-              <img
-                src="assets/Rewiew pic2.jpg"
-                alt=""
-                style="
-                  height: 6rem;
-                  width: 6rem;
-                  border-radius: 50%;
-                  object-fit: cover;
-                  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
-                "
-              />
-              <p class="text-center fw-bold reviewparagra">
-                "I love that the plants are sourced sustainably. Plus, the pots
-                and designs are so stylish—perfect for modern home decor. I get
-                compliments all the time!"
-              </p>
-              <div class="details-user text-center" style="color: #201c11">
-                <div class="name h3">-Priya S</div>
-              </div>
-            </div>
-            <div
-              class="swiper-slide"
-              style="
-                align-items: center;
-                row-gap: 1rem;
-                display: flex;
-                flex-direction: column;
-              "
-            >
-              <img
-                src="assets/Review pic3.jpg"
-                alt=""
-                style="
-                  height: 6rem;
-                  width: 6rem;
-                  border-radius: 50%;
-                  object-fit: cover;
-                  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
-                "
-              />
-              <p class="text-center fw-bold reviewparagra">
-                "The customer service was outstanding. I had a question about
-                repotting my plant, and they walked me through the whole
-                process. You can tell they really care about their customers and
-                plants."
-              </p>
-              <div class="details-user text-center" style="color: #201c11">
-                <div class="name h3">-Jamie El</div>
-              </div>
-            </div>
           </div>
-
-          <script src="../Indoor Plantation/Landing page/js/swiper-bundle.min.js"></script>
-        </div>
+          <div class="swiper-slide "
+              style="align-items: center;row-gap: 1rem;display: flex;flex-direction: column;">
+              <img src="assets/Rewiew pic2.jpg" alt=""
+                  style="height: 6rem; width: 6rem; border-radius: 50%;object-fit: cover;box-shadow:3px 3px 7px rgba(0,0,0,0.3)">
+              <p class="text-center fw-bold" style="padding: 0px 8rem; color: #201c11;">"I love that the
+                  plants are sourced sustainably. Plus, the pots and designs are so stylish—perfect for
+                  modern home decor. I get compliments all the time!"
+              </p>
+              <div class="details-user text-center" style="color: #201c11;">
+                  <div class="name h3">-Priya S</div>
+              </div>
+          </div>
+          <div class="swiper-slide "
+              style="align-items: center;row-gap: 1rem;display: flex;flex-direction: column;">
+              <img src="assets/Review pic3.jpg" alt=""
+                  style="height: 6rem; width: 6rem; border-radius: 50%;object-fit: cover;box-shadow:3px 3px 7px rgba(0,0,0,0.3)">
+              <p class="text-center fw-bold" style="padding: 0px 8rem; color: #201c11;">"The customer
+                  service was outstanding. I had a question about repotting my plant, and they walked me
+                  through the whole process. You can tell they really care about their customers and
+                  plants."</p>
+              <div class="details-user text-center" style="color: #201c11;">
+                  <div class="name h3">-Jamie El</div>
+              </div>
+          </div>
       </div>
+      <script src="js/swiper-bundle.min.js"></script>
+      </div>
+    </div>
     </div>
     <!-- Review Section Ends here -->
 
@@ -1350,7 +1285,7 @@
               <div class="col d-flex">
                 <ul class="d-flex flex-column">
                   <img
-                    src="../UI Design Code/Indoor Plantation/Landing pageassets/new Logo.png"
+                    src="assets/new Logo.png"
                     alt=""
                     style="height: auto; width: 5rem"
                   />
@@ -1363,7 +1298,7 @@
               <div class="col text-center d-flex">
                 <ul class="d-flex flex-column" id="fagLinks">
                   <img
-                    src="../Indoor Plantationassets//icons footer/Support Icon.png"
+                    src="assets/icons footer/Support Icon.png"
                     alt=""
                     style="height: auto; width: 5rem"
                   />
@@ -1376,7 +1311,7 @@
               <div class="col text-center d-flex">
                 <ul class="d-flex flex-column">
                   <img
-                    src="../Indoor Plantationassets/icons footer/Address Icon.png"
+                    src="assets/icons footer/Address Icon.png"
                     alt=""
                     style="height: auto; width: 5rem"
                   />
@@ -1415,15 +1350,15 @@
                       style="color: #201c11; text-decoration: none; gap: 1.5rem"
                       class="d-flex"
                       ><img
-                        src="../Indoor Plantationassets/icons footer/fb icon.png"
+                        src="assets/icons footer/fb icon.png"
                         alt=""
                         style="height: auto; width: 2rem" />
                       <img
-                        src="../Indoor Plantationassets/icons footer/Twitter icon.png"
+                        src="assets/icons footer/Twitter icon.png"
                         alt=""
                         style="height: auto; width: 2rem" />
                       <img
-                        src="../Indoor Plantationassets/icons footer/insta icon.png"
+                        src="assets/icons footer/insta icon.png"
                         alt=""
                         style="height: auto; width: 2rem"
                     /></a>

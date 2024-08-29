@@ -273,7 +273,7 @@ figure:hover img {
 #containerFluid {
   margin: 0px 100px;
 }
-#review{
+#review {
   padding: 0px 8rem;
   color: #201c11;
 }
@@ -292,7 +292,7 @@ ul {
 .h3 {
   margin: 0;
 }
-.bgTimer {
+#bgTimer {
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
