@@ -299,9 +299,7 @@ figure:hover img {
     display: flex;
     justify-content: center;
   }
-  * {
-    font-size: small;
-  }
+ 
 }
 
 /* Media Query */
