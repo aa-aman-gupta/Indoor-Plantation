@@ -302,6 +302,8 @@ figure:hover img {
  
 }
 
-/* Media Query */
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width:320px) and (max-width:991px) {
+  #offCanvas{
+    background-color: #5e883e;
+  }
 }

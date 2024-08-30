@@ -49,3 +49,8 @@
     visibility: visible;
   }
 }
+@media (min-width:320px) and (max-width:991px) {
+  #offCanvas{
+    background-color: #5e883e;
+  }
+}
