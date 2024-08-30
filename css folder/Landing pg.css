@@ -22,6 +22,16 @@
   box-shadow: none;
   outline: none;
 }
+#btn-page {
+  background-color: #5e883e;
+  color: #e1dad0;
+  transition: 0.2s all ease-in-out;
+}
+#btn-page:hover {
+  background-color: #201c11;
+  color: #e1dad0;
+  transition: 0.2s all ease-in-out;
+}
 .nav-link {
   position: relative;
 }
@@ -57,11 +67,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.hero-section .btn {
-  background-color: #5e883e;
-  width: 7rem;
-  color: #e1dad0;
 }
 #carousel2,
 #carousel1,
@@ -368,8 +373,8 @@ ul {
     padding: 0px 1rem;
   }
 }
-@media (min-width:320px) and (max-width:991px) {
-  #offCanvas{
+@media (min-width: 320px) and (max-width: 991px) {
+  #offCanvas {
     background-color: #5e883e;
   }
 }
