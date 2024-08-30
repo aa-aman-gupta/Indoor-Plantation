@@ -619,8 +619,8 @@
         </div>
       </div>
     </div>
-    <footer class="section-container mt-5">
-      <div class="container-lg">
+    <footer class="container mt-5" style="position: relative">
+      <div class="container-fluid">
         <div
           class="content d-flex flex-column"
           style="height: fit-content; justify-content: center"
@@ -631,40 +631,20 @@
               style="align-items: center"
             >
               <div class="col d-flex">
-                <ul
-                  style="
-                    list-style-type: none;
-                    row-gap: 2rem;
-                    align-items: center;
-                    text-align: center;
-                    padding: 0;
-                  "
-                  class="d-flex flex-column"
-                >
-                  <a href="index.html">
-                    <img
-                      src="assets/new Logo.png"
-                      alt=""
-                      style="height: auto; width: 5rem"
-                  /></a>
-                  <li>
-                    <a href="about us.html" class="link-item">About</a>
-                  </li>
+                <ul class="d-flex flex-column p-0">
+                  <img
+                    src="assets/new Logo.png"
+                    alt=""
+                    style="height: auto; width: 5rem"
+                  />
+                  <li><a href="" class="link-item">About</a></li>
                   <li><a href="" class="link-item">Career</a></li>
                   <li><a href="" class="link-item">Our Gurantee</a></li>
                   <li><a href="" class="link-item">Corporate Orders</a></li>
                 </ul>
               </div>
               <div class="col text-center d-flex">
-                <ul
-                  style="
-                    list-style-type: none;
-                    row-gap: 2rem;
-                    align-items: center;
-                    padding: 0;
-                  "
-                  class="d-flex flex-column"
-                >
+                <ul class="d-flex flex-column p-0" id="fagLinks">
                   <img
                     src="assets/icons footer/Support Icon.png"
                     alt=""
@@ -677,15 +657,7 @@
                 </ul>
               </div>
               <div class="col text-center d-flex">
-                <ul
-                  style="
-                    list-style-type: none;
-                    row-gap: 2rem;
-                    align-items: center;
-                    padding: 0;
-                  "
-                  class="d-flex flex-column"
-                >
+                <ul class="d-flex flex-column p-0">
                   <img
                     src="assets/icons footer/Address Icon.png"
                     alt=""
@@ -696,36 +668,14 @@
                   </li>
                   <li><a href="" class="link-item">New York City,NY</a></li>
                   <li><a href="" class="link-item">United states.</a></li>
-                  <li style="visibility: hidden">
-                    <a href="" style="color: #201c11; text-decoration: none"
-                      >United states.</a
-                    >
-                  </li>
+                  <!-- <li style="visibility: hidden;"><a href=""
+                                        style="color: #201c11;  text-decoration: none">United states.</a>
+                                </li> -->
                 </ul>
               </div>
               <div class="col">
-                <ul
-                  style="
-                    list-style-type: none;
-                    row-gap: 2rem;
-                    align-items: center;
-                    position: relative;
-                    top: 1rem;
-                    padding: 0;
-                  "
-                  class="d-flex flex-column"
-                >
-                  <li>
-                    <a
-                      href=""
-                      style="
-                        color: #201c11;
-                        text-decoration: none;
-                        font-size: 1.3rem;
-                      "
-                      >Connect with Us</a
-                    >
-                  </li>
+                <ul class="d-flex flex-column">
+                  <li><a href="" id="connect">Connect With Us</a></li>
                   <li>
                     <input
                       type="email"
@@ -742,19 +692,24 @@
                       class="text-center"
                     />
                   </li>
-                  <li class="d-flex" style="gap: 1rem">
-                    <i
-                      class="fa-brands fa-facebook"
-                      style="color: #201c11; font-size: 1.7rem"
-                    ></i>
-                    <i
-                      class="fa-brands fa-twitter"
-                      style="color: #201c11; font-size: 1.7rem"
-                    ></i>
-                    <i
-                      class="fa-brands fa-instagram"
-                      style="color: #201c11; font-size: 1.7rem"
-                    ></i>
+                  <li>
+                    <a
+                      href=""
+                      style="color: #201c11; text-decoration: none; gap: 1.5rem"
+                      class="d-flex"
+                      ><img
+                        src="assets/icons footer/fb icon.png"
+                        alt=""
+                        style="height: auto; width: 2rem" />
+                      <img
+                        src="assets/icons footer/Twitter icon.png"
+                        alt=""
+                        style="height: auto; width: 2rem" />
+                      <img
+                        src="assets/icons footer/insta icon.png"
+                        alt=""
+                        style="height: auto; width: 2rem"
+                    /></a>
                   </li>
                 </ul>
               </div>

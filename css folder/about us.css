@@ -155,6 +155,19 @@ hr {
 .link-item.active::before {
   width: 90%;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+#connect {
+  color: #201c11;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
 figure {
   display: grid;
   border-radius: 1rem;
@@ -249,19 +262,48 @@ figure:hover img {
   padding: 0px 150px;
 }
 
-@media (min-width: 320px) and (max-width: 650px) {
+@media (min-width: 320px) and (max-width: 768px) {
   #container-fluid-1 {
-    margin: 0px 20px;
+    margin: 0px;
   }
-  #paraPromise{
+  #paraPromise {
     padding: 0px;
   }
-  .col{
+  *{
+    font-size: small;
+  }
+  .col {
     justify-content: center;
     display: flex;
-   
   }
-  .row{
+  .row {
     row-gap: 1.2rem;
   }
+  ul {
+    row-gap: 20px;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  ul li a {
+    font-size: smaller;
+  }
+  #faqLinks {
+    padding: 0px 10px;
+  }
+  .row {
+    row-gap: 2rem;
+  }
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+  * {
+    font-size: small;
+  }
+}
+
+/* Media Query */
+@media (min-width: 320px) and (max-width: 768px) {
 }
