@@ -92,6 +92,7 @@
   justify-content: center;
   height: 100vh;
   flex-direction: column;
+  position: absolute;
 }
 #btnPage:hover {
   background-color: #201c11;
@@ -99,11 +100,11 @@
   transition: all ease-in-out 0.3s;
   box-shadow: 4px 4px 15px#201c11;
 }
-.carousel-caption {
+/* .carousel-caption {
   opacity: 0;
   transition: 2.5s;
   transform: translateY(-200px);
-}
+} */
 .show {
   opacity: 1;
   transform: translateY(4rem);
