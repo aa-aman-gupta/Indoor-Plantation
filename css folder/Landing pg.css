@@ -289,6 +289,11 @@ ul {
   font-size: 1.3rem;
   text-decoration: none;
 }
+
+#reviewText {
+  padding: 0px 8rem;
+  color: #201c11;
+}
 .h3 {
   margin: 0;
 }
@@ -302,11 +307,10 @@ ul {
 #carouselText3 {
   color: #201c11;
 }
-
-form-control me-2 text-center{
+#navSearch {
   border-radius: 150px;
-   width: 10rem; 
-   height: 2rem
+  width: 10rem;
+  height: 2rem;
 }
 /* media query */
 @media (min-width: 320px) and (max-width: 768px) {
@@ -325,6 +329,13 @@ form-control me-2 text-center{
     align-items: center;
     flex-direction: column;
   }
+
+  #reviewText {
+    padding: 0px 10px;
+  }
+  #navSearch {
+    width: 7rem;
+  }
   .h3 {
     font-size: 1.2rem;
   }
@@ -333,7 +344,7 @@ form-control me-2 text-center{
     justify-content: center;
   }
   * {
-    font-size: medium;
+    font-size: small;
   }
   #reviewPara {
     padding: 10px;
@@ -348,13 +359,9 @@ form-control me-2 text-center{
   ul li a {
     font-size: smaller;
   }
-  ul li {
-    font-size: smaller;
-  }
   #faqLinks {
     padding: 0px 10px;
   }
-
   .row {
     row-gap: 2rem;
   }
@@ -365,5 +372,11 @@ form-control me-2 text-center{
     width: 4rem;
     border-radius: 50%;
     /* padding: 0px 1rem; */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 505px){
+  ul{
+    padding: 0px 1rem;
   }
 }
