@@ -29,6 +29,9 @@
 .nav-link.active::before {
   color: #e1dad0;
 }
+.row{
+  row-gap: 2rem;
+}
 @media (min-width: 991px) {
   .nav-link::before {
     content: "";

@@ -314,9 +314,6 @@ ul {
     height: 4rem;
     place-content: center;
   }
-  #cartItem {
-    display: none;
-  }
   .dealColumn {
     display: flex;
     align-items: center;
