@@ -35,7 +35,7 @@
 
     <link rel="shortcut icon" href="assets/new Logo.png" type="image/x-icon" />
   </head>
-  <body style="background: linear-gradient(#c4baac, #e1dad0)">
+  <body style="background-color: #e1dad0">
     <!-- Navbar starts from here -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid" id="containerFluid">
@@ -91,7 +91,7 @@
             type="search"
             placeholder="Search"
             aria-label="Search"
-            style="border-radius: 150px; width: 10rem; height: 2rem"
+            id="navInput"
           />
         </form>
         <div
@@ -119,5 +119,65 @@
       </div>
     </nav>
     <!-- Navbar Ends from here -->
+    <div class="container">
+      <div class="content">
+        <div class="contact-us">
+          <div class="fw-bold">Contact us</div>
+        </div>
+      </div>
+
+      <div class="intro-container justify-content-center d-flex">
+        <div class="content-intro mt-5">
+          <div class="p">
+            Welcome to Greenify’s Contact Us page! We're here to help you with
+            all your indoor plantation needs. Whether you have questions about
+            our products, need advice on plant care, or just want to say hello,
+            we’d love to hear from you. Reach out to us using the form below or
+            through our direct contact options.
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid-section">
+        <div class="aboutus-pages mt-5">
+          <!-- Contact Form -->
+          <section class="contact-form">
+            <form>
+              <!-- <label for="name">Name:</label>
+              <input type="text" id="name" name="name" /><br /><br /> -->
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                /><br />
+                <label for="floatingInput">Enter your Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                /><br />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                /><br />
+                <label for="floatingInput">Subject</label>
+              </div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea><br /><br />
+              <input type="submit" value="Send Message" class="leaf-button" />
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
