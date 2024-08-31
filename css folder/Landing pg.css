@@ -87,15 +87,6 @@
   color: #50330c;
   position: relative;
 }
-
-.carousel-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  flex-direction: column;
-  position: absolute;
-}
 #btnPage:hover {
   background-color: #201c11;
   color: #e1dad0;

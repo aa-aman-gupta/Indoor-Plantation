@@ -150,7 +150,16 @@
   background-color: #f0f0f0;
   color: #201c11;
 }
-
+.h5{
+  color: #201c11;
+  transition: .3s ease-in
+  ;
+}
+.h5:hover{
+  color: #e1dad0;
+  transition: .3s ease-out
+  ;
+}
 ul li a {
   color: #201c11;
   text-decoration: none;
