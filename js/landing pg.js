@@ -27,18 +27,12 @@ setInterval(() => {
   Timer();
 }, 1000);
 
-// let swiper = new Swiper(".mySwiper", {
-//   slidesPerView: 1,
-//   grabCursor: true,
-//   loop: true,
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
-var swiper = new Swiper(".mySwiper", {
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+let swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  grabCursor: true,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
   },
 });

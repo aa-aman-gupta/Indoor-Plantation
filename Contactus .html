@@ -62,7 +62,7 @@
             ></button>
           </div>
           <div class="offcanvas-body" id="offCanvas">
-            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <ul class="navbar-nav justify-content-center flex-grow-1 ">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html"
                   >Home</a
@@ -119,8 +119,9 @@
       </div>
     </nav>
     <!-- Navbar Ends from here -->
+
     <div class="container">
-      <div class="content">
+      <div class="content ">
         <div class="contact-us">
           <div class="fw-bold">Contact us</div>
         </div>
@@ -142,43 +143,73 @@
           <!-- Contact Form -->
           <section class="contact-form">
             <form>
-              <div class="form-floating mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                /><br />
-                <label for="floatingInput">Enter your Name</label>
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    /><br />
+                    <label for="floatingInput">First Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    /><br />
+                    <label for="floatingInput">Last Name</label>
+                  </div>
+                </div>
               </div>
-              <div class="form-floating mb-3">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                /><br />
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                /><br />
-                <label for="floatingInput">Subject</label>
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    /><br />
+                    <label for="floatingInput">name@example.com</label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    /><br />
+                    <label for="floatingInput">Phone number</label>
+                  </div>
+                </div>
               </div>
               <label for="message">Message:</label>
-              <textarea id="message" name="message"></textarea><br /><br />
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="5"
+                ></textarea>
+              </div>
               <input type="submit" value="Send Message" class="leaf-button" />
             </form>
           </section>
         </div>
       </div>
-      <div class="container">
-        <div class="container-v4">
-          <div class="accordion" id="accordionExample">
+      <div class="container" id="faq-container">
+        <div class="">
+          <div class="heading text-center">
+            <div class="h3">Frequently Asked Question</div>
+          </div>
+          <div class="accordion mt-3 mb-4" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
@@ -189,7 +220,7 @@
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Accordion Item #1
+                  What are the best low-light plants for beginners?
                 </button>
               </h2>
               <div
@@ -198,15 +229,9 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  For low-light conditions, we recommend plants like snake
+                  plants, pothos, and ZZ plants. These are hardy and require
+                  minimal maintenance, making them perfect for beginners.
                 </div>
               </div>
             </div>
@@ -220,7 +245,7 @@
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Accordion Item #2
+                  How do I know if my plant needs repotting?
                 </button>
               </h2>
               <div
@@ -229,15 +254,10 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  If you notice roots growing out of the drainage holes or the
+                  plant is becoming root-bound, it's time to repot. Spring is
+                  usually the best time to repot your plants to give them room
+                  to grow.
                 </div>
               </div>
             </div>
@@ -251,7 +271,7 @@
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  Accordion Item #3
+                  Can I get personalized plant care advice?
                 </button>
               </h2>
               <div
@@ -260,15 +280,9 @@
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Absolutely! If you’re unsure about how to care for your plant,
+                  send us a message with details or a photo, and our experts
+                  will provide tailored advice.
                 </div>
               </div>
             </div>
@@ -276,5 +290,133 @@
         </div>
       </div>
     </div>
+    <!-- footer starts from here -->
+    <div class="bg-footer" style="background-color: #91b377">
+      <div class="container">
+        <footer class="text-center text-lg-start mt-xl-5 pt-4">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row row-gap-2">
+              <!--Grid column-->
+              <div
+                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex align-items-center flex-column"
+              >
+                <img
+                  src="assets/new Logo.png"
+                  alt=""
+                  class="img-fluid"
+                  style="width: 5rem"
+                />
+
+                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                  <li>
+                    <a href="#!">About us</a>
+                  </li>
+                  <li>
+                    <a href="#!">Career</a>
+                  </li>
+                  <li>
+                    <a href="#!">Our Gurantee</a>
+                  </li>
+                  <li>
+                    <a href="#!">Corporate Orders</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div
+                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex flex-column align-items-center"
+              >
+                <img
+                  src="assets/icons footer/Support Icon.png"
+                  alt=""
+                  style="width: 5rem"
+                />
+
+                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                  <li>
+                    <a href="#!">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#!">Track your order</a>
+                  </li>
+                  <li>
+                    <a href="#!">About Shipping</a>
+                  </li>
+                  <li>
+                    <a href="#!">Service Support</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div
+                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex align-items-center flex-column"
+              >
+                <img
+                  src="assets/icons footer/Address Icon.png"
+                  alt=""
+                  style="width: 5rem"
+                />
+
+                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                  <li>
+                    <a href="#!">No 40 Baria Street 15/2</a>
+                  </li>
+                  <li>
+                    <a href="#!">New York</a>
+                  </li>
+                  <li>
+                    <a href="#!">United States</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div
+                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex flex-column align-items-center"
+              >
+                <img
+                  src="assets/icons footer/Support Icon.png"
+                  alt=""
+                  style="width: 5rem"
+                />
+
+                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                  <li>
+                    <a href="#!">Plant Guides </a>
+                  </li>
+                  <li>
+                    <a href="#!">Care Tips</a>
+                  </li>
+                  <li>
+                    <a href="#!">Terms of Service </a>
+                  </li>
+                  <li>
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="name@example.com"
+                      /><br />
+                      <label for="floatingInput">Signup letter</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </footer>
+      </div>
+    </div>
+    <!-- End of .container -->
   </body>
 </html>
