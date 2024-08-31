@@ -45,105 +45,118 @@
   </head>
 
   <body style="background: linear-gradient(#c4baac, #e1dad0)">
-    <!-- Navbar starts from here -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid" id="containerFluid">
-        <a class="navbar-brand me-auto" href="#"
-          ><img src="assets/new Logo.png" alt=""
-        /></a>
-
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header" id="offCanvas">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body" id="offCanvas">
-            <ul class="navbar-nav justify-content-center flex-grow-1">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="index.html"
-                  aria-current="page"
-                  style="color: #e1dad0"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about us.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shops</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contactus .html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <form class="d-flex" role="search" style="cursor: pointer">
-          <input
-            class="form-control me-2 text-center"
-            id="navSearch"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-        </form>
-        <div
-          class="d-flex align-item-center"
-          style="cursor: pointer; gap: 10px"
-        >
-          <i class="fa-solid fa-user" style="color: #e1dad0" id="cartItem"></i>
-          <i
-            class="fa-solid fa-cart-shopping cart-btn"
-            style="color: #e1dad0"
-            id="cartItem"
-          ></i>
-        </div>
+   
+<nav class="navbar navbar-expand-lg fixed-top" id="navBar-first">
+  <div class="container-fluid" id="containerFluid">
+    <a class="navbar-brand me-auto" href="#"
+      ><img src="assets/new Logo.png" alt=""
+    /></a>
+    <div
+      class="offcanvas offcanvas-end"
+      style="background-color: #91b377;width: 21rem;"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header" id="offCanvas">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
         <button
-          id="nav-toggle"
-          class="navbar-toggler"
           type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
-    </nav>
-    <!-- Navbar Ends from here -->
+      <div class="offcanvas-body" id="offCanvas">
+        <ul class="navbar-nav justify-content-center flex-grow-1">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              href="index.html"
+              aria-current="page"
+              style="color: #e1dad0"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contactus .html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form class="d-flex" role="search" style="cursor: pointer">
+      <input
+        class="form-control me-2 text-center"
+        id="navSearch"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+    </form>
+    <div
+      class="d-flex align-item-center"
+      style="cursor: pointer; gap: 10px"
+    >
+      <i class="fa-solid fa-user" style="color: #e1dad0" id="cartItem"></i>
+      <i
+        class="fa-solid fa-cart-shopping cart-btn"
+        style="color: #e1dad0"
+        id="cartItem"
+      ></i>
+    </div>
+    <button
+      id="nav-toggle"
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
 
     <!-- Hero Section -->
     <section class="hero-section hide">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/bg1.png" class="d-block w-100" alt="...">
+            <img src="assets/bg1.png" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="assets/bg2.jpg" class="d-block w-100" alt="...">
+            <img src="assets/bg2.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="assets/bg 3.jpg" class="d-block w-100" alt="...">
+            <img src="assets/bg 3.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -1223,132 +1236,131 @@
     </div>
     <!-- Review Section Ends here -->
 
-     <!-- footer starts from here -->
-     <div class="bg-footer" style="background-color: #91b377">
+    <!-- footer starts from here -->
+    <div class="bg-footer" style="background-color: #91b377">
       <!-- <div class="container"> -->
-        <footer class="text-center text-lg-start mt-xl-5 pt-4">
-          <!-- Grid container -->
-          <div class="container p-4 " style="height: fit-content;">
-            <!--Grid row-->
-            <div class="row row-gap-2">
-              <!--Grid column-->
-              <div
-                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex align-items-center flex-column"
-              >
-                <img
-                  src="assets/new Logo.png"
-                  alt=""
-                  class="img-fluid"
-                  style="width: 5rem"
-                />
+      <footer class="text-center text-lg-start mt-xl-5 pt-4">
+        <!-- Grid container -->
+        <div class="container p-4" style="height: fit-content">
+          <!--Grid row-->
+          <div class="row row-gap-2">
+            <!--Grid column-->
+            <div
+              class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex align-items-center flex-column"
+            >
+              <img
+                src="assets/new Logo.png"
+                alt=""
+                class="img-fluid"
+                style="width: 5rem"
+              />
 
-                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
-                  <li>
-                    <a href="#!">About us</a>
-                  </li>
-                  <li>
-                    <a href="#!">Career</a>
-                  </li>
-                  <li>
-                    <a href="#!">Our Gurantee</a>
-                  </li>
-                  <li>
-                    <a href="#!">Corporate Orders</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div
-                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex flex-column align-items-center"
-              >
-                <img
-                  src="assets/icons footer/Support Icon.png"
-                  alt=""
-                  style="width: 5rem"
-                />
-
-                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
-                  <li>
-                    <a href="#!">Contact us</a>
-                  </li>
-                  <li>
-                    <a href="#!">Track your order</a>
-                  </li>
-                  <li>
-                    <a href="#!">About Shipping</a>
-                  </li>
-                  <li>
-                    <a href="#!">Service Support</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div
-                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex align-items-center flex-column"
-              >
-                <img
-                  src="assets/icons footer/Address Icon.png"
-                  alt=""
-                  style="width: 5rem"
-                />
-
-                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
-                  <li>
-                    <a href="#!">No 40 Baria Street 15/2</a>
-                  </li>
-                  <li>
-                    <a href="#!">New York</a>
-                  </li>
-                  <li>
-                    <a href="#!">United States</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div
-                class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex flex-column align-items-center"
-              >
-                <img
-                  src="assets/icons footer/Support Icon.png"
-                  alt=""
-                  style="width: 5rem"
-                />
-
-                <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
-                  <li>
-                    <a href="#!">Plant Guides </a>
-                  </li>
-                  <li>
-                    <a href="#!">Care Tips</a>
-                  </li>
-                  <li>
-                    <a href="#!">Terms of Service </a>
-                  </li>
-                  <li>
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="floatingInput"
-                        placeholder="name@example.com"
-                      /><br />
-                      <label for="floatingInput">Signup letter</label>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+              <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                <li>
+                  <a href="#!">About us</a>
+                </li>
+                <li>
+                  <a href="#!">Career</a>
+                </li>
+                <li>
+                  <a href="#!">Our Gurantee</a>
+                </li>
+                <li>
+                  <a href="#!">Corporate Orders</a>
+                </li>
+              </ul>
             </div>
             <!--Grid column-->
+
+            <!--Grid column-->
+            <div
+              class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex flex-column align-items-center"
+            >
+              <img
+                src="assets/icons footer/Support Icon.png"
+                alt=""
+                style="width: 5rem"
+              />
+
+              <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                <li>
+                  <a href="#!">Contact us</a>
+                </li>
+                <li>
+                  <a href="#!">Track your order</a>
+                </li>
+                <li>
+                  <a href="#!">About Shipping</a>
+                </li>
+                <li>
+                  <a href="#!">Service Support</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div
+              class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex align-items-center flex-column"
+            >
+              <img
+                src="assets/icons footer/Address Icon.png"
+                alt=""
+                style="width: 5rem"
+              />
+
+              <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                <li>
+                  <a href="#!">No 40 Baria Street 15/2</a>
+                </li>
+                <li>
+                  <a href="#!">New York</a>
+                </li>
+                <li>
+                  <a href="#!">United States</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div
+              class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-flex flex-column align-items-center"
+            >
+              <img
+                src="assets/icons footer/Support Icon.png"
+                alt=""
+                style="width: 5rem"
+              />
+
+              <ul class="list-unstyled mb-4 text-center d-grid gap-1 mt-3">
+                <li>
+                  <a href="#!">Plant Guides </a>
+                </li>
+                <li>
+                  <a href="#!">Care Tips</a>
+                </li>
+                <li>
+                  <a href="#!">Terms of Service </a>
+                </li>
+                <li>
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    /><br />
+                    <label for="floatingInput">Signup letter</label>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-          <!--Grid row-->
-        </footer>
-      </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </footer>
     </div>
     <!-- End of .container -->
   </body>

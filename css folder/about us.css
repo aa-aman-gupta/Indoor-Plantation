@@ -5,8 +5,7 @@
   font-family: poppins;
 }
 .navbar {
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.322);
 }
 .nav-item a {
   color: #201c11;
@@ -14,6 +13,14 @@
 }
 #nav-toggle {
   border: none;
+}
+.h5 {
+  color: #201c11;
+  transition: 0.2s ease-out;
+}
+.h5:hover {
+  color: #e1dad0;
+  transition: 0.2s ease-in;
 }
 .nav-item a:hover {
   color: #e1dad0;
@@ -30,7 +37,7 @@
 .nav-link.active::before {
   color: #e1dad0;
 }
-.row{
+.row {
   row-gap: 2rem;
 }
 @media (min-width: 991px) {
@@ -54,12 +61,12 @@
   }
 }
 
-.bg-img {
+/* .bg-img {
   background: url("/about\ us\ bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding: 130px 0px;
-}
+} */
 
 .info-intro {
   color: #201c11;
@@ -84,7 +91,7 @@ ul li a {
 }
 ul li a:hover {
   color: #e1dad0;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 .col {
   align-items: center;
@@ -132,12 +139,6 @@ hr {
   width: 100%;
   visibility: visible;
   border-radius: 10px;
-}
-
-onnect {
-  color: #201c11;
-  font-size: 1.3rem;
-  text-decoration: none;
 }
 
 figure {
@@ -233,15 +234,22 @@ figure:hover img {
 #paraPromise {
   padding: 0px 150px;
 }
-
+.navbar a img {
+  width: 3rem;
+}
+#navSearch {
+  border-radius: 150px;
+  width: 10rem;
+  height: 2rem;
+}
 @media (min-width: 320px) and (max-width: 768px) {
-  #container-fluid-1 {
+  #containerFluid {
     margin: 0px;
   }
   #paraPromise {
     padding: 0px;
   }
-  *{
+  * {
     font-size: small;
   }
   .col {
@@ -258,11 +266,8 @@ figure:hover img {
     display: flex;
     justify-content: center;
   }
- 
-}
-
-@media (min-width:320px) and (max-width:991px) {
-  #offCanvas{
-    background-color: #5e883e;
+  nav {
+    height: 4rem;
+    place-content: center;
   }
 }

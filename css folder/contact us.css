@@ -6,7 +6,6 @@
 }
 .navbar {
   background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(3px); 
 }
 .nav-item a {
   color: #201c11;
@@ -162,9 +161,7 @@ ul li a:hover {
 }
 /* Media query */
 @media (min-width: 320px) and (max-width: 991px) {
-  #offCanvas {
-    background-color: #5e883e;
-  }
+
 }
 @media (min-width: 320px) and (max-width: 768px) {
   #containerFluid {

@@ -4,9 +4,10 @@
   box-sizing: border-box;
   font-family: poppins;
 }
-.navbar {
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(3px);
+#navBar-first{
+  background-color: rgba(0, 0, 0, 0.25);
+  /* background-color: #e1dad0; */
+  /* backdrop-filter: blur(3px); */
 }
 .nav-item a {
   color: #201c11;
@@ -106,10 +107,10 @@
   transition: 2.5s;
   transform: translateY(-200px);
 } */
-.show {
+/* .show {
   opacity: 1;
   transform: translateY(4rem);
-}
+} */
 .hero-section2 {
   height: 100vh;
   width: 100%;
@@ -193,7 +194,6 @@
   }
 }
 
-
 figure {
   display: grid;
   border-radius: 1rem;
@@ -242,7 +242,7 @@ ul li a {
 }
 ul li a:hover {
   color: #e1dad0;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 #connect {
   color: #201c11;
@@ -305,7 +305,7 @@ ul li a:hover {
   #reviewPara {
     padding: 10px;
   }
-  
+
   #faqLinks {
     padding: 0px 10px;
   }
@@ -331,7 +331,8 @@ ul li a:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 991px) {
-  #offCanvas {
-    background-color: #5e883e;
-  }
+ 
+}
+.navbar a img {
+  width: 3rem;
 }
