@@ -55,23 +55,6 @@ function updateTotal() {
   total = quantity * 10.99;
   totalDisplay.textContent = total.toFixed(2);
 }
-// Array.from(lisProducts.children).forEach((lisProducts, i, list) => {
-//     lisProducts.addEventListener("click", function () {
-//         let newSrc = productImg.querySelectorAll(".product-img").src;
-//         productImg.src = newSrc;
-//         list.forEach(prod => prod.classList.remove('active'));
-//         productImg.classList.add('active')
-//     })
-// })
-// let options = {
-//     width: 400,
-//     // height: 400,
-//     zoomWidth: 500,
-//     offset: { vertical: 80, horizontal: 0 },
-//     scale: 1,
-//     left: 3000
-// }
-// let = ImageZoom(document.getElementById("imgCon"), options);
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entries) => {

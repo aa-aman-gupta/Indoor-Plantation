@@ -77,9 +77,11 @@
   box-shadow: rgba(20, 20, 20, 0.274) 0px 4px 12px;
 }
 #navInput {
-  border-radius: 150px;
-  width: 10rem;
-  height: 2rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+  padding: 3px 12px;
+  border: none;
+  background-color: #e1dad0;
 }
 .content-intro {
   display: flex;
