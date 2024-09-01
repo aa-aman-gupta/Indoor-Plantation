@@ -62,13 +62,18 @@
   }
 }
 
-.container {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.h5:hover{
+  color: #e1dad0;
+  transition: .3s ease-out
+  ;
+}
+ul li a {
+  color: #201c11;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #e1dad0;
+  transition: .4s all ease-in-out;
 }
 #carousel2,
 #carousel1,
@@ -258,9 +263,11 @@ ul li a:hover {
   align-items: center;
 }
 #navSearch {
-  border-radius: 150px;
-  width: 10rem;
-  height: 2rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+  padding: 3px 12px;
+  border: none;
+  background-color: #e1dad0;
 }
 /* media query */
 @media (min-width: 320px) and (max-width: 768px) {

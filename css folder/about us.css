@@ -237,8 +237,11 @@ figure:hover img {
 .navbar a img {
   width: 3rem;
 }
+#containerFluid {
+  margin: 0px 100px;
+}
 #navSearch {
-  border-radius: 150px;
+  border-radius: 10px;
   width: 10rem;
   height: 2rem;
 }
