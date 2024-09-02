@@ -101,11 +101,6 @@
   transition: 0.5s all ease-out;
   backdrop-filter: blur(10px);
 }
-.contact-form:hover {
-  /* box-shadow: rgba(20, 20, 20, 0.274) 0px 4px 12px;
-  transition: 0.5s all ease-in; */
-}
-
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -145,15 +140,21 @@
   background-color: #f0f0f0;
   color: #201c11;
 }
-.h5{
+.h5 {
   color: #201c11;
-  transition: .3s ease-in
-  ;
+  transition: 0.3s ease-in;
 }
-.h5:hover{
+.h5:hover {
   color: #e1dad0;
-  transition: .3s ease-out
-  ;
+  transition: 0.3s ease-out;
+}
+#footer-link-sec {
+  display: flex;
+  flex-direction: column;
+}
+#footer-last-link {
+  display: flex;
+  flex-direction: column;
 }
 ul li a {
   color: #201c11;
@@ -161,11 +162,10 @@ ul li a {
 }
 ul li a:hover {
   color: #e1dad0;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 /* Media query */
 @media (min-width: 320px) and (max-width: 991px) {
-
 }
 @media (min-width: 320px) and (max-width: 768px) {
   #containerFluid {
@@ -183,5 +183,19 @@ ul li a:hover {
   }
   .content-intro {
     width: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #footer-last-link {
+    display: none;
+  }
+  #footer-link-sec {
+    display: none;
+  }
+}
+@media (min-width: 550px) {
+  #footer-link-sec {
+    display: block;
   }
 }
