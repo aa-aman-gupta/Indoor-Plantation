@@ -99,8 +99,8 @@
           class="d-flex align-item-center"
           style="cursor: pointer; gap: 10px"
         >
-        <i class="fa-solid fa-user" style="color: #201c11"></i>
-        <i class="fa-solid fa-cart-shopping" style="color: #201c11"></i>
+          <i class="fa-solid fa-user" style="color: #201c11"></i>
+          <i class="fa-solid fa-cart-shopping" style="color: #201c11"></i>
         </div>
         <button
           id="nav-toggle"
@@ -119,8 +119,12 @@
 
     <div class="container">
       <div class="content">
-        <div class="contact-us">
-          <div class="fw-bold">Contact us</div>
+        <div class="jumbotron text-center mt-3">
+          <h1 class="display-4">Contact Us</h1>
+
+          <hr class="my-4" />
+
+          <a class="btn-contact btn-lg" href="index.html" role="button">Home</a>
         </div>
       </div>
 
@@ -138,6 +142,17 @@
       <div class="container-fluid-section">
         <div class="aboutus-pages mt-5">
           <!-- Contact Form -->
+          <section class="text-center" style="color: #201c11;">
+            <h2>Reason for Contact</h2>
+            <label for="reason">What can we help you with?</label>
+            <select id="reason" name="reason">
+              <option value="general-inquiry">General Inquiry</option>
+              <option value="product-info">Product/Service Information</option>
+              <option value="order-inquiry">Order/Shipping Inquiry</option>
+              <option value="partnership">Partnership/Collaboration Opportunity</option>
+              <option value="other">Other (please specify)</option>
+            </select>
+          </section>
           <section class="contact-form">
             <form>
               <div class="row">
@@ -173,7 +188,7 @@
                       id="floatingInput"
                       placeholder="name@example.com"
                     /><br />
-                    <label for="floatingInput">name@example.com</label>
+                    <label for="floatingInput">name@gmail.com</label>
                   </div>
                 </div>
                 <div class="col-md-6 col-12">
@@ -400,7 +415,7 @@
 
             <div class="payment-methods">
               <ul
-                class="list list-payment d-flex list-unstyled gap-2 p-0"
+                class="list list-payment d-flex list-unstyled gap-1 p-0"
                 role="list"
               >
                 <li class="list-payment__item">
