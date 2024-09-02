@@ -4,10 +4,8 @@
   box-sizing: border-box;
   font-family: poppins;
 }
-#navBar-first{
-  background-color: rgba(0, 0, 0, 0.25);
-  /* background-color: #e1dad0; */
-  /* backdrop-filter: blur(3px); */
+#navBar-first {
+  background-color: rgba(0, 0, 0, 0.400);
 }
 .nav-item a {
   color: #201c11;
@@ -62,10 +60,9 @@
   }
 }
 
-.h5:hover{
+.h5:hover {
   color: #e1dad0;
-  transition: .3s ease-out
-  ;
+  transition: 0.3s ease-out;
 }
 ul li a {
   color: #201c11;
@@ -73,7 +70,7 @@ ul li a {
 }
 ul li a:hover {
   color: #e1dad0;
-  transition: .4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 #carousel2,
 #carousel1,
@@ -98,15 +95,15 @@ ul li a:hover {
   transition: all ease-in-out 0.3s;
   box-shadow: 4px 4px 15px#201c11;
 }
-/* .carousel-caption {
+.carousel-caption {
   opacity: 0;
   transition: 2.5s;
-  transform: translateY(-200px);
-} */
-/* .show {
+  transform: translateX(-10rem);
+}
+.show {
   opacity: 1;
-  transform: translateY(4rem);
-} */
+  transform: translateX(-20rem);
+}
 .hero-section2 {
   height: 100vh;
   width: 100%;
@@ -245,7 +242,7 @@ ul li a:hover {
   font-size: 1.3rem;
   text-decoration: none;
 }
-.navbar-brand img{
+.navbar-brand img {
   width: 50px;
 }
 #reviewText {
@@ -283,7 +280,10 @@ ul li a:hover {
     align-items: center;
     flex-direction: column;
   }
-
+  #footer-link-sec {
+    display: flex;
+    flex-direction: column;
+  }
   #reviewText {
     padding: 0px 10px;
   }
@@ -303,7 +303,10 @@ ul li a:hover {
   #reviewPara {
     padding: 10px;
   }
-
+  #footer-last-link {
+    display: flex;
+    flex-direction: column;
+  }
   #faqLinks {
     padding: 0px 10px;
   }
@@ -328,8 +331,18 @@ ul li a:hover {
     width: 35px;
   }
 }
-@media (min-width: 320px) and (max-width: 991px) {
- 
+@media (min-width: 320px) and (max-width: 768px) {
+  #footer-last-link {
+    display: none;
+  }
+  #footer-link-sec {
+    display: none;
+  }
+}
+@media (min-width: 550px) {
+  #footer-link-sec {
+    display: block;
+  }
 }
 .navbar a img {
   width: 3rem;
