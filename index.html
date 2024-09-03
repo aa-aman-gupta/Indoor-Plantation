@@ -52,7 +52,7 @@
         /></a>
         <div
           class="offcanvas offcanvas-end"
-          style="background-color: #91b377;width: 21rem;"
+          style="background-color: #91b377; width: 21rem"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -70,15 +70,15 @@
             <ul class="navbar-nav justify-content-center flex-grow-1">
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link active"
                   href="index.html"
-                  
-                
+                  aria-current="page"
+                  style="color: #e1dad0"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link  active" aria-current="page" href="about us.html"  style="color: #e1dad0">About Us</a>
+                <a class="nav-link" href="about us.html">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Shops</a>
@@ -102,8 +102,8 @@
           class="d-flex align-item-center"
           style="cursor: pointer; gap: 10px"
         >
-        <i class="fa-solid fa-user" style="color: #201c11"></i>
-        <i class="fa-solid fa-cart-shopping" style="color: #201c11"></i>
+          <i class="fa-solid fa-user" style="color: #201c11"></i>
+          <i class="fa-solid fa-cart-shopping" style="color: #201c11"></i>
         </div>
         <button
           id="nav-toggle"
@@ -118,7 +118,7 @@
         </button>
       </div>
     </nav>
-    
+
     <!-- Hero Section -->
     <section class="hero-section hide">
       <div
@@ -173,102 +173,99 @@
           >
             <div class="col" id="dealColumn">
               <div
-                  class="card"
+                class="card"
+                style="
+                  width: 18rem;
+                  background-color: #5e883e;
+                  border-radius: 1.1rem;
+                  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+                "
+              >
+                <div
+                  class="bg-color d-flex mt-3 mb-0 ms-auto me-auto"
                   style="
-                    width: 18rem;
-                    background-color: #5e883e;
-                    border-radius: 1.1rem;
-                    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+                    width: 15rem;
+                    height: 20rem;
+                    align-items: center;
+                    position: relative;
+                    border-radius: 1.5rem;
                   "
                 >
-                  <div
-                    class="bg-color d-flex mt-3 mb-0 ms-auto me-auto"
-                    style="
-                      width: 15rem;
-                      height: 20rem;
-                      align-items: center;
-                      position: relative;
-                      border-radius: 1.5rem;
-                    "
-                  >
-                    <figure>
-                      <img
-                        src="assets/products img/Deals day product.jpg"
-                        class="card-img-top mt-3"
-                        alt="Snake Plant"
-                        style="border-radius: 2rem"
-                      />
-                      <figcaption style="gap: 2rem">
-                        <div
-                          class="icon-bg d-flex justify-content-center"
-                          style="
-                            align-items: center;
-                            background-color: #201c11;
-                            width: 2em;
-                            height: 2em;
-                            border-radius: 50%;
-                          "
-                        >
-                          <i
-                            class="fa-solid fa-cart-shopping"
+                  <figure>
+                    <img
+                      src="assets/products img/Deals day product.jpg"
+                      class="card-img-top mt-3"
+                      alt="Snake Plant"
+                      style="border-radius: 2rem"
+                    />
+                    <figcaption style="gap: 2rem">
+                      <div
+                        class="icon-bg d-flex justify-content-center"
+                        style="
+                          align-items: center;
+                          background-color: #201c11;
+                          width: 2em;
+                          height: 2em;
+                          border-radius: 50%;
+                        "
+                      >
+                        <i
+                          class="fa-solid fa-cart-shopping"
+                          style="color: #e1dad0"
+                        ></i>
+                      </div>
+                      <div
+                        class="iFcon-bg d-flex justify-content-center"
+                        style="
+                          align-items: center;
+                          background-color: #201c11;
+                          width: 2em;
+                          height: 2em;
+                          border-radius: 50%;
+                        "
+                      >
+                        <a
+                          href="Deals day.html"
+                          id="contentImages"
+                          onclick="changeImg()"
+                          ><i
+                            class="fa-duotone fa-solid fa-magnifying-glass"
                             style="color: #e1dad0"
-                          ></i>
-                        </div>
-                        <div
-                          class="iFcon-bg d-flex justify-content-center"
-                          style="
-                            align-items: center;
-                            background-color: #201c11;
-                            width: 2em;
-                            height: 2em;
-                            border-radius: 50%;
-                          "
-                        >
-                          <a
-                            href="Deals day.html"
-                            id="contentImages"
-                            onclick="changeImg()"
-                            ><i
-                              class="fa-duotone fa-solid fa-magnifying-glass"
-                              style="color: #e1dad0"
-                            ></i
-                          ></a>
-                        </div>
-                        <div
-                          class="icon-bg d-flex justify-content-center"
-                          style="
-                            align-items: center;
-                            background-color: #201c11;
-                            width: 2em;
-                            height: 2em;
-                            border-radius: 50%;
-                          "
-                        >
-                          <i
-                            class="fa-solid fa-heart"
-                            style="color: #e1dad0"
-                          ></i>
-                        </div>
-                      </figcaption>
-                    </figure>
+                          ></i
+                        ></a>
+                      </div>
+                      <div
+                        class="icon-bg d-flex justify-content-center"
+                        style="
+                          align-items: center;
+                          background-color: #201c11;
+                          width: 2em;
+                          height: 2em;
+                          border-radius: 50%;
+                        "
+                      >
+                        <i class="fa-solid fa-heart" style="color: #e1dad0"></i>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div
+                  class="card-body d-flex m-0 pb-3"
+                  style="
+                    justify-content: space-around;
+                    gap: 2rem;
+                    align-items: center;
+                  "
+                >
+                  <div class="plant" style="color: #e1dad0">
+                    <h4 class="fw-bold">Cactus</h4>
+                    <p style="font-family: sans-serif">$50 .00</p>
                   </div>
-                  <div
-                    class="card-body d-flex m-0 pb-3"
-                    style="
-                      justify-content: space-around;
-                      gap: 2rem;
-                      align-items: center;
-                    "
-                  >
-                    <div class="plant" style="color: #e1dad0">
-                      <h4 class="fw-bold">Cactus</h4>
-                      <p style="font-family: sans-serif">$50 .00</p>
-                    </div>
-                    <div class="cart-btn">
-                      <div class="btn" id="buyBtn">Buy Now</div>
-                    </div>
+                  <div class="cart-btn">
+                    <div class="btn" id="buyBtn">Buy Now</div>
                   </div>
                 </div>
+              </div>
             </div>
             <div class="col dealColumn">
               <div class="heading-container text-center">
