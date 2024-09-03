@@ -120,7 +120,12 @@
     <div class="container">
       <div class="content">
         <div class="jumbotron text-center mt-3">
-          <h1 class="display-4">Contact Us</h1>
+          <h1
+            class="display-4"
+            style="font-family: libre-baskerville-regular, serif; font-style: italic;color: #201c11;"
+          >
+            Contact Us
+          </h1>
 
           <hr class="my-4" />
 
@@ -128,7 +133,7 @@
         </div>
       </div>
 
-      <div class="intro-container justify-content-center d-flex">
+      <!-- <div class="intro-container justify-content-center d-flex">
         <div class="content-intro mt-5">
           <div class="p">
             Welcome to Greenify’s Contact Us page! We're here to help you with
@@ -138,85 +143,152 @@
             through our direct contact options.
           </div>
         </div>
+      </div> -->
+      <div class="supp">
+        <section class="container-fluid">
+          <div class="container-xxl">
+            <div class="row mt-5 gx-5">
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <h2 class="text-white display-5 fw-semibold">
+                    Welcome to our support page!
+                  </h2>
+                </div>
+                <div class="row">
+                  <h6 style="color: #999">
+                    We're here to help you with any problems you may be having
+                    with our product.
+                  </h6>
+                </div>
+                <div class="row mt-3">
+                  <img src="assets/img/support web page img.png" alt="png" />
+                </div>
+              </div>
+              <div
+                class="col-12 col-md-8 mt-5 mt-sm-0 d-flex justify-content-end"
+              >
+                <form action="#" class="row pt-4 ps-3 rounded">
+                  <div
+                    class="heading text-center mb-4"
+                    style="
+                      font-family: libre-baskerville-regular, serif;
+                      font-size: 32px;
+                    "
+                  >
+                    Send us your Question!
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-6">
+                      <div class="mb-3 text-white">
+                        <label for="first-name" class="form-label"
+                          >First Name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control p-2"
+                          id="first-name"
+                          placeholder="Aman"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <div class="mb-3 text-white">
+                        <label for="last-name" class="form-label"
+                          >Last Name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control p-2"
+                          id="last-name"
+                          placeholder="Gupta"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-12 col-sm-6">
+                      <div class="mb-3 text-white">
+                        <label for="email" class="form-label">Email</label>
+                        <input
+                          type="email"
+                          class="form-control p-2"
+                          id="email"
+                          placeholder="example@gmail.com"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <div class="mb-3 text-white">
+                        <label for="phonenumber" class="form-label">
+                          Phone Number</label
+                        >
+                        <input
+                          type="number"
+                          class="form-control p-2"
+                          id="phonenumber"
+                          placeholder="Phone Number"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-1">
+                    <div class="mb-3 mt-1">
+                      <label for="Textarea" class="form-label">Message </label>
+                      <textarea
+                        class="form-control"
+                        id="Textarea"
+                        rows="4"
+                        placeholder
+                        style="
+                          background-color: transparent;
+                          color: #201c11;
+                          border-color: #262626;
+                        "
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="row mt-1">
+                    <div class="col-12 col-sm-6">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          placeholder
+                          id="flexCheckDefault"
+                          style="background-color: #141414; border-color: #eee"
+                        />
+                        <label
+                          class="form-check-label"
+                          for="flexCheckDefault"
+                          style="color: #201c11"
+                        >
+                          I agree with Terms of Use and Privacy Policy
+                        </label>
+                      </div>
+                    </div>
+                    <div
+                      class="col-12 col-sm-6 text-center text-sm-end mt-3 mt-sm-0"
+                    >
+                      <button
+                        type="submit"
+                        class="send-button border-0 btn-base px-3 py-2 fw-500 rounded-2"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="container-fluid-section">
-        <div class="aboutus-pages mt-5">
-          <!-- Contact Form -->
-          <section class="text-center" style="color: #201c11;">
-            <h2>Reason for Contact</h2>
-            <label for="reason">What can we help you with?</label>
-            <select id="reason" name="reason">
-              <option value="general-inquiry">General Inquiry</option>
-              <option value="product-info">Product/Service Information</option>
-              <option value="order-inquiry">Order/Shipping Inquiry</option>
-              <option value="partnership">Partnership/Collaboration Opportunity</option>
-              <option value="other">Other (please specify)</option>
-            </select>
-          </section>
-          <section class="contact-form">
-            <form>
-              <div class="row">
-                <div class="col-md-6 col-12">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="floatingInput"
-                      placeholder="name@example.com"
-                    /><br />
-                    <label for="floatingInput">First Name</label>
-                  </div>
-                </div>
-                <div class="col-md-6 col-12">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="floatingInput"
-                      placeholder="name@example.com"
-                    /><br />
-                    <label for="floatingInput">Last Name</label>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-12">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="floatingInput"
-                      placeholder="name@example.com"
-                    /><br />
-                    <label for="floatingInput">name@gmail.com</label>
-                  </div>
-                </div>
-                <div class="col-md-6 col-12">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="floatingInput"
-                      placeholder="name@example.com"
-                    /><br />
-                    <label for="floatingInput">Phone number</label>
-                  </div>
-                </div>
-              </div>
-              <label for="message">Message:</label>
-              <div class="mb-3">
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="5"
-                ></textarea>
-              </div>
-              <input type="submit" value="Send Message" class="leaf-button" />
-            </form>
-          </section>
-        </div>
-      </div>
-      <div class="container" id="faq-container">
+
+      <!-- <div class="container" id="faq-container">
         <div class="">
           <div class="heading text-center">
             <div class="h3">Frequently Asked Question</div>
@@ -300,7 +372,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- footer starts from here -->
     <div class="bg-footer" style="background-color: #91b377">
