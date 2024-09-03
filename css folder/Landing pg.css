@@ -100,10 +100,6 @@ ul li a:hover {
   transition: 2.5s;
   transform: translateX(-10rem);
 }
-.show {
-  opacity: 1;
-  transform: translateX(-20rem);
-}
 .hero-section2 {
   height: 100vh;
   width: 100%;
