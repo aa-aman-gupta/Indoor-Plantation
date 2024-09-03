@@ -180,18 +180,31 @@ form input {
   justify-content: space-between;
   padding-left: 0;
 }
-.social-link a :hover{
+.social-link a :hover {
   color: #5e883e;
-} 
-.btn-contact{
-  background-color:#5e883e ;
-  color: #201c11;
-  text-decoration: none;
-  transition: .4s all ease-out;
 }
-.btn-contact:hover{
-  background-color:#201c11;
+.btn-contact {
+  background-color: #5e883e;
   color: #e1dad0;
   text-decoration: none;
-  transition: .4s all ease-out;
+  transition: 0.4s all ease-out;
+}
+.btn-contact:hover {
+  background-color: #201c11;
+  text-decoration: none;
+  transition: 0.4s all ease-out;
+}
+
+.map-responsive{
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.map-responsive iframe{
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 100%;
+  position: absolute;
 }
