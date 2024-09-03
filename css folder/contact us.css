@@ -161,7 +161,6 @@ form input {
   color: #201c11;
 }
 
-
 .libre-baskerville-regular {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
@@ -169,3 +168,30 @@ form input {
   font-style: italic;
 }
 
+.company-details {
+  color: #828787;
+  text-align: left;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+}
+.social-link {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.social-link a :hover{
+  color: #5e883e;
+} 
+.btn-contact{
+  background-color:#5e883e ;
+  color: #201c11;
+  text-decoration: none;
+  transition: .4s all ease-out;
+}
+.btn-contact:hover{
+  background-color:#201c11;
+  color: #e1dad0;
+  text-decoration: none;
+  transition: .4s all ease-out;
+}
