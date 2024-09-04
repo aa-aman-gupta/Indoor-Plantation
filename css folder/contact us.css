@@ -4,12 +4,12 @@
   margin: 0;
   padding: 0;
 }
-/* .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
-}
 .nav-item a {
   color: #201c11;
   font-size: 1.1rem;
+}
+#nav-toggle {
+  border: none;
 }
 .nav-item a:hover {
   color: #e1dad0;
@@ -25,11 +25,8 @@
 .nav-link:hover,
 .nav-link.active::before {
   color: #e1dad0;
-} */
-#containerFluid {
-  margin: 0px 100px;
 }
-/* @media (min-width: 991px) {
+@media (min-width: 991px) {
   .nav-link::before {
     content: "";
     position: absolute;
@@ -49,13 +46,23 @@
     visibility: visible;
   }
 }
-#navInput {
+.navbar a img {
+  width: 3rem;
+}
+#navSearch {
   width: 8rem;
   border-radius: 0.5rem;
   padding: 3px 12px;
   border: none;
   background-color: #e1dad0;
-} */
+}
+.navbar{
+  background-color: rgba(0,0,0,0.400);
+}
+#containerFluid {
+  margin: 0px 100px;
+}
+
 
 .h5 {
   color: #201c11;
@@ -82,14 +89,10 @@ ul li a:hover {
   transition: 0.4s all ease-in-out;
 }
 /* Media query */
-@media (min-width: 320px) and (max-width: 991px) {
-}
+
 @media (min-width: 320px) and (max-width: 768px) {
   #containerFluid {
     margin: 0px;
-  }
-  #navInput {
-    width: 6rem;
   }
   .contact-us {
     font-size: 2rem;
@@ -197,58 +200,12 @@ form input {
   width: 100%;
   position: absolute;
 }
-.navbar {
-  background-color: rgba(0, 0, 0, 0.400);
-}
-.nav-item a {
-  color: #201c11;
-  font-size: 1.1rem;
-}
-#nav-toggle {
-  border: none;
-}
-.nav-item a:hover {
-  color: #e1dad0;
-}
-#nav-toggle:focus,
-.btn-close:focus {
-  box-shadow: none;
-  outline: none;
-}
-.nav-link {
-  position: relative;
-}
-.nav-link:hover,
-.nav-link.active::before {
-  color: #e1dad0;
-}
-@media (min-width: 991px) {
-  .nav-link::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: translateX(6%);
-    width: 0;
-    height: 2px;
-    background-color: #e1dad0;
-    visibility: hidden;
-    transition: all ease-in-out 0.3s;
-    border-radius: 3px;
-  }
-  .nav-link:hover::before,
-  .nav-link.active::before {
-    width: 90%;
-    visibility: visible;
-  }
-}
+
+
 #navSearch {
   width: 8rem;
   border-radius: 0.5rem;
   padding: 3px 12px;
   border: none;
   background-color: #e1dad0;
-}
-.navbar a img {
-  width: 3rem;
-}
+} 
