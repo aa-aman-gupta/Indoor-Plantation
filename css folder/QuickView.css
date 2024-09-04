@@ -166,7 +166,7 @@
   }
 }
 
-#img-container{
+#img-container {
   width: 410px;
   padding: 10px;
 }
@@ -241,9 +241,9 @@
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
- #img-container{
-  width: 300px;
-  padding: 8px;
-  margin-top: 8px ;
- }
+  #img-container {
+    width: 350px;
+    padding: 8px;
+    margin-top: 8px;
+  }
 }
