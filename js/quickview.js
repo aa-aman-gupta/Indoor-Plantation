@@ -306,3 +306,33 @@ function changeImg24() {
     )
   );
 }
+let quicImg25 = document.getElementById("quickImg25");
+let quicImg26 = document.getElementById("quickImg26");
+let quicImg27 = document.getElementById("quickImg27");
+let mainImg9 = document.getElementById("quicImg");
+function changeImg25() {
+  quicImg25.addEventListener(
+    "click",
+    mainImg9.setAttribute("src", `assets/products img/deal close.jpg`)
+  );
+}
+function changeImg26() {
+  quicImg26.addEventListener(
+    "click",
+    mainImg9.setAttribute(
+      "src",
+      `
+          assets/products img/deals close2.jpg`
+    )
+  );
+}
+function changeImg27() {
+  quicImg27.addEventListener(
+    "click",
+    mainImg9.setAttribute(
+      "src",
+      `
+assets/products img/Deals day product.jpg`
+    )
+  );
+}
