@@ -43,15 +43,11 @@
   </head>
   <body style="background-color: #e1dad0">
     <!-- Navbar starts from here -->
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top p-0" id="navBar-first">
       <div class="container-fluid" id="containerFluid">
         <a class="navbar-brand me-auto" href="index.html"
-          ><img
-            src="assets/new Logo.png"
-            alt=""
-            style="height: 50px; width: 50px"
+          ><img src="assets/new Logo.png" alt=""
         /></a>
-
         <div
           class="offcanvas offcanvas-start"
           style="background-color: #91b377; width: 21rem"
@@ -60,7 +56,7 @@
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header" id="offCanvas">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/new Logo.png" alt="" style="width: 4rem;"></h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
             <button
               type="button"
               class="btn-close"
@@ -71,9 +67,7 @@
           <div class="offcanvas-body" id="offCanvas">
             <ul class="navbar-nav justify-content-center flex-grow-1">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about us.html">About Us</a>
@@ -84,6 +78,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link active"
+                  aria-current="page"
                   style="color: #e1dad0"
                   href="Contactus .html"
                   >Contact Us</a
@@ -95,10 +90,10 @@
         <form class="d-flex" role="search" style="cursor: pointer">
           <input
             class="form-control me-2 text-center"
+            id="navSearch"
             type="search"
             placeholder="Search"
             aria-label="Search"
-            id="navInput"
           />
         </form>
         <div
@@ -110,7 +105,7 @@
         </div>
         <button
           id="nav-toggle"
-          class="navbar-toggler border-0"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
