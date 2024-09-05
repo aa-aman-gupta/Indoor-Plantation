@@ -4,6 +4,14 @@
   box-sizing: border-box;
   font-family: poppins;
 }
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+}
+
 #navBar-first {
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -294,7 +302,6 @@ ul li a:hover {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    /* padding: 0px 1rem; */
   }
 }
 
@@ -325,49 +332,12 @@ ul li a:hover {
 .main-container {
   overflow: hidden;
 }
-.hero-section .btn {
-  background-color: #5e883e;
-  width: 7rem;
-  color: #e1dad0;
-}
-.hero-section {
-  /* height: 100vh; */
-  width: 100%;
-  color: #50330c;
-  position: relative;
-}
-
-/* .carousel-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  flex-direction: column;
-} */
 #btn-page:hover {
   background-color: #201c11;
   color: #e1dad0;
   transition: all ease-in-out 0.3s;
   box-shadow: 4px 4px 15px#201c11;
 }
-/* .carousel-caption {
-  opacity: 0;
-  transition: 2.5s;
-  transform: translateY(-200px);
-  bottom: 0.25rem;
-}
-.show {
-  opacity: 1;
-  transform: translateY(3rem);
-}
-@media (min-width: 500px) and (max-width: 800px) {
-  .carousel-caption {
-    font-size: small;
-  }
-  .show {
-    transform: translateY(12rem);
-  }
-} */
 .hidden {
   opacity: 0;
   filter: blur(6px);

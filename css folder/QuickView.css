@@ -9,7 +9,7 @@
   width: 100%;
   position: relative;
   border-radius: 1.5rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
 }
 #quicImg:hover {
   transform: scale(1.1);
@@ -129,7 +129,6 @@
 }
 .navbar-toggler {
   border: 0;
-  /* font-size: 2rem; */
 }
 .navbar-toggler:focus,
 .btn-close:focus {
@@ -184,6 +183,7 @@
 #quicImg {
   position: relative;
   width: 100%;
+  transition: 0.2s all ease-in;
 }
 #quicImg:hover {
   transform: scale(1.1);
@@ -222,10 +222,6 @@
   font-size: 18px;
   margin-top: 10px;
 }
-/* 
-.row {
-  align-items: center;
-} */
 .container-fluid {
   margin: 0px 100px;
 }
