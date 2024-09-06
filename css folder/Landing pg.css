@@ -12,10 +12,10 @@
 }
 
 #navBar-first {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.81);
 }
 .nav-item a {
-  color: #201c11;
+  color: #91b377;
   font-size: 1.1rem;
 }
 #nav-toggle {
@@ -320,9 +320,16 @@ ul li a:hover {
   font-family: "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
   font-size: 1.2rem;
 }
-#carousel-caption{
+#carousel-caption {
   bottom: 3rem;
 }
+#carousel-caption3 h1:nth-last-child(3){
+  color: red;
+  opacity: 0;
+}
+ .carousel-item:nth-last-child(){
+  opacity: 0;
+ }
 #hero-btn {
   border: 2px solid #e1dad0;
   transition: 0.2s all ease-in;
@@ -334,22 +341,22 @@ ul li a:hover {
   color: #e1dad0;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
-@media (min-width: 320px) and (max-width: 450px) {
+@media (min-width: 320px) and (max-width: 475px) {
   .carousel-caption {
     display: none;
   }
 }
-@media (min-width: 451px) and (max-width: 600px) {
+@media (min-width: 476px) and (max-width: 600px) {
   .carousel-caption h1 {
     font-size: 1.1rem;
   }
   .carousel-caption p {
     font-size: 1.1rem;
   }
-  #carousel-caption{
+  #carousel-caption {
     bottom: 2rem;
   }
-  #hero-btn{
+  #hero-btn {
     padding: 10px 10px;
   }
 }
