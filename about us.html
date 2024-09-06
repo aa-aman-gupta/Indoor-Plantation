@@ -19,11 +19,11 @@
     ></script>
 
     <!-- Js File  -->
-     <script src="js/aboutus.js" defer></script>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet"
-      />
+    <script src="js/aboutus.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- css file -->
     <link rel="stylesheet" href="css folder/about us.css" />
@@ -45,13 +45,22 @@
         /></a>
         <div
           class="offcanvas offcanvas-start"
-          style="background-color: #91b377;width: 21rem;"
+          style="
+            background-color: #91b377;
+            width: 21rem;
+            max-height: 60.5rem;
+            border-radius: 0.7rem;
+            top: 0.7rem;
+            bottom: 0.7rem;
+          "
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header" id="offCanvas">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/new Logo.png" alt="" style="width: 4rem;"></h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="assets/new Logo.png" alt="" style="width: 4rem" />
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -62,16 +71,16 @@
           <div class="offcanvas-body" id="offCanvas">
             <ul class="navbar-nav justify-content-center flex-grow-1">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="index.html"
-                  
-                
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  active" aria-current="page" href="about us.html"  style="color: #e1dad0">About Us</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="about us.html"
+                  style="color: #e1dad0"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Shops</a>
@@ -95,8 +104,8 @@
           class="d-flex align-item-center"
           style="cursor: pointer; gap: 10px"
         >
-        <i class="fa-solid fa-user" style="color: #201c11"></i>
-        <i class="fa-solid fa-cart-shopping" style="color: #201c11"></i>
+          <i class="fa-solid fa-user" style="color: #201c11"></i>
+          <i class="fa-solid fa-cart-shopping" style="color: #201c11"></i>
         </div>
         <button
           id="nav-toggle"
@@ -111,7 +120,7 @@
         </button>
       </div>
     </nav>
-    
+
     <!-- Navbar Ends from here -->
     <div class="container-fluid-section mt-4 hidden">
       <div class="aboutus-pages">
@@ -140,12 +149,20 @@
               <div
                 class="col-md-6 intro_image order-md-2 order-1 aboutcontainer"
               >
-                <img class="w-100 h-5 cardImg" src="assets/about card-2.jpg" style="border-radius: 1.3rem;" />
+                <img
+                  class="w-100 h-5 cardImg"
+                  src="assets/about card-2.jpg"
+                  style="border-radius: 1.3rem"
+                />
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 intro_image aboutcontainer" id="">
-                <img class="w-100 cardImg" src="assets/about-card3.jpg" style="border-radius: 1.3rem;" />
+                <img
+                  class="w-100 cardImg"
+                  src="assets/about-card3.jpg"
+                  style="border-radius: 1.3rem"
+                />
               </div>
               <div class="col-md-6 intro_detail d-flex align-items-center">
                 <div class="info-intro">
@@ -623,9 +640,9 @@
         </div>
       </div>
     </div>
-    
+
     <!-- footer starts from here -->
-   <div class="bg-footer" style="background-color: #91b377">
+    <div class="bg-footer" style="background-color: #91b377">
       <div class="container mt-5">
         <footer class="text-center text-lg-start mt-xl-5 pt-4">
           <!-- Grid container -->

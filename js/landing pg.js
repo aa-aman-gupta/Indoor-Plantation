@@ -60,3 +60,47 @@ hiddenElements.forEach((el) => observer.observe(el));
   //    // Toggle the dark mode class on the body element
   //    b.style.background = "red";
   //  });
+  var slideIndex = 0;
+  showSlides1();
+  var slides, dots;
+
+  function showSlides1() {
+      var i;
+      slides = document.getElementsByClassName("mySlides");
+      dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+          slideIndex = 1
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides1, 10000);
+  }
+
+  function plusSlides1(position) {
+      slideIndex += position;
+      if (slideIndex > slides.length) {
+          slideIndex = 1
+      } else if (slideIndex < 1) {
+          slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+
+          slides[slideIndex - 1].style.display = "block";
+      }
+
+      function currentSlide1(index) {
+          if (index > slides.length) {
+              index = 1
+          } else if (index < 1) {
+              index = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          slides[index - 1].style.display = "block";
+      }
+  }
