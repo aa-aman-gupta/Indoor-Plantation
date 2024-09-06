@@ -46,14 +46,20 @@
   </head>
 
   <body style="background: linear-gradient(#c4baac, #e1dad0)">
-    <nav class="navbar navbar-expand-lg fixed-top" id="navBar-first">
+    <nav class="navbar navbar-expand-lg sticky-top" id="navBar-first">
       <div class="container-fluid" id="containerFluid">
         <a class="navbar-brand me-auto" href="index.html"
           ><img src="assets/new Logo.png" alt=""
         /></a>
         <div
           class="offcanvas offcanvas-start"
-          style="background-color: #91b377; width: 21rem"
+          style="
+            background-color: #91b377;
+            width: 21rem;
+            height: 38rem;
+            border-radius: 0.7rem;
+            top: 0.7rem;
+          "
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -251,6 +257,7 @@
             Deals of the day
           </div>
         </div>
+        <!-- <button id="dark-mode-toggle">Toggle Dark Mode</button> -->
         <div
           class="content d-flex flex-column"
           style="height: fit-content; justify-content: center"

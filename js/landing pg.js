@@ -52,3 +52,11 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hidden");
 
 hiddenElements.forEach((el) => observer.observe(el));
+
+  //  // Get the toggle button and add an event listener
+  //  const toggleButton = document.getElementById('dark-mode-toggle');
+  //  let b=document.querySelector("body")
+  //  toggleButton.addEventListener('click', () => {
+  //    // Toggle the dark mode class on the body element
+  //    b.style.background = "red";
+  //  });

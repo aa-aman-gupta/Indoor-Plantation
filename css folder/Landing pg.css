@@ -4,7 +4,24 @@
   box-sizing: border-box;
   font-family: poppins;
 }
+ /* :root {
+        --light-mode-background: #f0f0f0;
+        --light-mode-text: #333;
+        --dark-mode-background: #333;
+        --dark-mode-text: #f0f0f0;
+      }
 
+      body {
+        background-color: var(--light-mode-background);
+        color: var(--light-mode-text);
+      }
+
+      .dark-mode {
+        background-color: var(--dark-mode-background);
+        color: var(--dark-mode-text);
+      } */
+
+      
 .libre-baskerville-regular {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
@@ -14,6 +31,7 @@
 
 #navBar-first {
   background-color: rgba(0, 0, 0, 0.4);
+  /* backdrop-filter: blur(px); */
 }
 .nav-item a {
   color: #201c11;
