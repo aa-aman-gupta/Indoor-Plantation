@@ -28,6 +28,7 @@
 .btn-close:focus {
   box-shadow: none;
   outline: none;
+  color: red;
 }
 .nav-link {
   position: relative;
@@ -323,13 +324,13 @@ ul li a:hover {
 #carousel-caption {
   bottom: 3rem;
 }
-#carousel-caption3 h1:nth-last-child(3){
+#carousel-caption3 h1:nth-last-child(3) {
   color: red;
   opacity: 0;
 }
- .carousel-item:nth-last-child(){
+.carousel-item:nth-last-child() {
   opacity: 0;
- }
+}
 #hero-btn {
   border: 2px solid #e1dad0;
   transition: 0.2s all ease-in;
@@ -359,4 +360,8 @@ ul li a:hover {
   #hero-btn {
     padding: 10px 10px;
   }
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28225,218,208, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important ;
 }

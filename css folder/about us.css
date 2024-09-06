@@ -5,10 +5,10 @@
   font-family: poppins;
 }
 .navbar {
-  background-color: rgba(0, 0, 0, 0.400);
+  background-color: rgba(0, 0, 0, 0.81);
 }
 .nav-item a {
-  color: #201c11;
+  color: #91b377;
   font-size: 1.1rem;
 }
 #nav-toggle {
@@ -302,4 +302,8 @@ figure:hover img {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28225,218,208, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important ;
 }
