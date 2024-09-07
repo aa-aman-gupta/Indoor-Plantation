@@ -294,7 +294,7 @@ figure:hover img {
   opacity: 0;
   filter: blur(6px);
   transform: translateY(-100%);
-  transition: all 2.5s;
+  transition: all 1.5s;
 }
 
 .show {
