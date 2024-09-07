@@ -35,21 +35,20 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-const hiddenElements = document.querySelectorAll(".hidden");
+const hiddensElement = document.querySelectorAll(".hidden");
 
-hiddenElements.forEach((el) => observer.observe(el));
+hiddensElement.forEach((el) => observer.observe(el));
+const observers = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show-2");
+    } else {
+      entry.target.classList.remove("show-2");
+    }
+  });
+});
 
-// const observe = new IntersectionObserver((entries) => {
-//   entries.forEach((entry) => {
-//     console.log(entry);
-//     if (entry.isIntersecting) {
-//       entry.target.classList.add("show-2");
-//     } else {
-//       entry.target.classList.remove("show-2");
-//     }
-//   });
-// });
+const hiddenElement = document.querySelectorAll(".hidden-2");
 
-// const hiddenElement = document.querySelectorAll(".hidden-2");
-
-// hiddenElement.forEach((el) => observe.observe(el));
+hiddenElement.forEach((el) => observer.observe(el));
