@@ -24,23 +24,9 @@ let swiper = new Swiper(".mySwiper", {
   },
 });
 
-// const observer = new IntersectionObserver((entries) => {
-//   entries.forEach((entries) => {
-//       if (entries.isIntersecting) {
-//           entries.target.classList.add("show")
-//       } else {
-//           entries.target.classList.remove("show")
-//       }
-//   })
-// })
-
-// const hiddenElements = document.querySelectorAll(".carousel-caption")
-// hiddenElements.forEach((el) =>
-//   observer.observe(el)
-// )
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry)
+    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     } else {
@@ -52,3 +38,18 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hidden");
 
 hiddenElements.forEach((el) => observer.observe(el));
+
+// const observe = new IntersectionObserver((entries) => {
+//   entries.forEach((entry) => {
+//     console.log(entry);
+//     if (entry.isIntersecting) {
+//       entry.target.classList.add("show-2");
+//     } else {
+//       entry.target.classList.remove("show-2");
+//     }
+//   });
+// });
+
+// const hiddenElement = document.querySelectorAll(".hidden-2");
+
+// hiddenElement.forEach((el) => observe.observe(el));
