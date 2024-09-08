@@ -301,7 +301,7 @@ ul li a:hover {
 .hidden {
   opacity: 0;
   transform: translateX(-100%);
-  transition: all 3s;
+  transition: all 2.5s;
 }
 .hidden-2{
   opacity: 0;

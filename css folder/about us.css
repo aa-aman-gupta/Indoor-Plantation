@@ -293,8 +293,8 @@ figure:hover img {
 .hidden {
   opacity: 0;
   filter: blur(6px);
-  transform: translateY(-100%);
-  transition: all 1.5s;
+  transform: translateY(-50%);
+  transition: all 1.2s;
 }
 
 .show {

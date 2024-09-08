@@ -213,8 +213,8 @@ form input {
 .hidden {
   opacity: 0;
   filter: blur(6px);
-  transform: translateY(-100%);
-  transition: all 3s;
+  transform: translateY(-50%);
+  transition: all 2s;
 }
 
 .show {
