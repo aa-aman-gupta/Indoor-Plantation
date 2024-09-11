@@ -1,4 +1,4 @@
-let endingDAte = "10 september 2024 7:00 PM";
+let endingDAte = "20 september 2024 7:00 PM";
 let timerValue = document.querySelectorAll(".timerValue");
 function Timer() {
   let ending = new Date(endingDAte);
