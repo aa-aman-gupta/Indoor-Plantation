@@ -298,22 +298,21 @@ ul li a:hover {
   transition: all ease-in-out 0.3s;
   box-shadow: 4px 4px 15px#201c11;
 }
-.hidden {
+.hidden-1 {
   opacity: 0;
   transform: translateX(-100%);
   transition: all 2.5s;
 }
-.hidden-2{
+.hidden-2 {
   opacity: 0;
   transform: translateY(-100%);
   transition: all 2s;
-
 }
-.show-2{
+.show-2 {
   opacity: 1;
-  transform: transla  teY(0);
+  transform: transla teY(0);
 }
-.show {
+.show-1 {
   opacity: 1;
   transform: translateX(0);
 }
@@ -328,7 +327,7 @@ ul li a:hover {
   color: #e1dad0;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
-#hero-btn a{
+#hero-btn a {
   color: #e1dad0;
 }
 .navbar-toggler-icon {
@@ -386,16 +385,34 @@ swiper-slide img {
   }
 }
 
-/* 
-.hidden-3{
+.hidden {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 1s;
 }
 
-.show-3{
+.show {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-} */
+}
+
+.buy-plant-2 {
+  transition-delay: 0.2s;
+}
+.buy-plant-3 {
+  transition-delay: 0.4s;
+}
+.buy-plant-4 {
+  transition-delay: 0.6s;
+}
+.buy-plant-6 {
+  transition-delay: 0.2s;
+}
+.buy-plant-7 {
+  transition-delay: 0.4s;
+}
+.buy-plant-8 {
+  transition-delay: 0.6s;
+}
